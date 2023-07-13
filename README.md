@@ -1,15 +1,15 @@
-# Online Real-Time Recurrent Learning Using Sparse Connections and Selective Learning
+# Scalabale Real-Time Recurrent Learning Using Columnar-Constructive Networks (JMLR)
 
-**Paper:** [link here](https://arxiv.org/pdf/2302.05326.pdf)
+**Paper:** [link here](#)
 
-**ALE policy evaluation dataset:** [link here](https://drive.google.com/drive/folders/19AwuhsZdFUpyb-kHxAIzaYewCqF1pPxw?usp=sharing)
+**ALE policy evaluation dataset:** [link here](https://github.com/khurramjaved96/atari-prediction-benchmark)
 
 ## Compilation instructions
-Make sure that the following prerequisites are set up in your system:
+Prerequisites:
 - A compiler with C++11 support
 - Mariadb/MySQL
-- [Protocol Buffers](https://developers.google.com/protocol-buffers)
+- OpenCV
 
-The code can be compiled by running `bash compile.sh` in the base directory.
+The code can be compiled using `compile.sh` in the base directory. 
 
 
