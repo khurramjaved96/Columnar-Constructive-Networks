@@ -1,0 +1,100 @@
+{
+  "experiment": {
+    "name": "atari_jmlr_all_games_3M_fixed",
+    "params": {
+      "steps": [
+        "30000000"
+      ],
+      "features": [
+         "6:6:30000000",
+        "10:1:3000000",
+        "30:1:1000000"
+      ],
+      "input_features": [
+        "275"
+      ],
+      "env": [
+        "AirRaid",
+        "Alien",
+        "Amidar",
+        "Asterix",
+        "Asteroids",
+        "Atlantis",
+        "BankHeist",
+        "BattleZone",
+        "BeamRider",
+        "Berzerk",
+        "Bowling",
+        "Boxing",
+        "Breakout",
+        "Carnival",
+        "Centipede",
+        "ChopperCommand",
+        "CrazyClimber",
+        "DemonAttack",
+        "DoubleDunk",
+        "Enduro",
+        "FishingDerby",
+        "Freeway",
+        "Frostbite",
+        "Gopher",
+        "Gravitar",
+        "Hero",
+        "IceHockey",
+        "Jamesbond",
+        "JourneyEscape",
+        "Kangaroo",
+        "Krull",
+        "KungFuMaster",
+        "MsPacman",
+        "NameThisGame",
+        "Phoenix",
+        "Pitfall",
+        "Pong",
+        "Pooyan",
+        "PrivateEye",
+        "Qbert",
+        "Riverraid",
+        "RoadRunner",
+        "Robotank",
+        "Seaquest",
+        "Solaris",
+        "SpaceInvaders",
+        "StarGunner",
+        "TimePilot",
+        "Tutankham",
+        "UpNDown",
+        "VideoPinball",
+        "WizardOfWor",
+        "YarsRevenge",
+        "Zaxxon"
+      ],
+      "algorithm": [
+        {
+          "hybrid": {}
+        }
+      ],
+      "step_size": [
+        "0.0001"
+      ],
+      "start": [
+        "0"
+      ],
+      "normalization_rate": [
+        "0.999998"
+      ],
+      "lambda": [
+        "0.99"
+      ],
+      "gamma": [
+        "0.98"
+      ],
+      "std_cap": [
+        "0.001"
+      ],
+      "seed": [
+       "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"
+      ]
+    }
+  }
+}
